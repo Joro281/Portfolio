@@ -35,7 +35,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         <ConditionalLayout>
-          {children}
+        {children}
         </ConditionalLayout>
       </body>
     </html>

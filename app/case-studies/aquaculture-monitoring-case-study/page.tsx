@@ -159,6 +159,26 @@ export default function AquacultureMonitoringCaseStudy() {
             </tbody>
           </table>
         </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-300 mb-2">5. Conclusion & Recommendations</h2>
+          
+          <h3 className="text-green-400 font-semibold mb-2">Conclusion</h3>
+          <p className="text-gray-300 mb-4">The system successfully:</p>
+          <ul className="list-disc ml-6 text-gray-300 mb-4">
+            <li>Automated pH stabilization (7.4–7.6) using Chlorella vulgaris.</li>
+            <li>Provided real-time monitoring via a low-cost web interface.</li>
+            <li>Demonstrated that 10–20% algae density was most efficient for small-scale aquaculture.</li>
+          </ul>
+
+          <h3 className="text-green-400 font-semibold mb-2">Recommendations</h3>
+          <ul className="list-disc ml-6 text-gray-300 mb-4">
+            <li><strong>Expand Sensors:</strong> Add ammonia/nitrite detectors for comprehensive water quality monitoring.</li>
+            <li><strong>Solar Power:</strong> Integrate renewable energy for off-grid use.</li>
+            <li><strong>Anti-Fouling Measures:</strong> Modify float switches to resist algae buildup.</li>
+            <li><strong>Commercial Scaling:</strong> Test larger chambers for commercial aquaculture.</li>
+          </ul>
+        </section>
         
         <div className="mt-12 text-center">
           <p className="text-gray-400 text-xs italic">

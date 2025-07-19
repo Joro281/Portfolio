@@ -27,7 +27,7 @@ const Navbar = () => {
         <img 
           src="/spider.ico" 
           alt="Spider" 
-          className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 inline-block mx-1 animate-bounce hover:scale-110 transition-transform duration-300 drop-shadow-lg"
+          className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 inline-block mx-1 hover:scale-110 transition-transform duration-300 drop-shadow-lg"
         />
         <span className="bg-gradient-to-r from-emerald-500 to-green-400 bg-clip-text text-transparent animate-pulse">
           RO

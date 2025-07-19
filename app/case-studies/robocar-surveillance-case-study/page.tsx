@@ -182,8 +182,8 @@ export default function RoboCarSurveillanceCaseStudy() {
             For more information, check out the links above
           </p>
         </div>
-        </main>
-        <SlideUpFooter />
+      </main>
+      <SlideUpFooter />
     </>
   );
 } 
