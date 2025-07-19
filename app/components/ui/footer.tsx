@@ -1,5 +1,5 @@
 "use client";
-import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, FileText } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -42,6 +42,14 @@ export default function Footer() {
           className="flex items-center gap-1 text-gray-300 hover:text-green-400 transition-transform duration-200 transform hover:scale-110"
         >
           <Linkedin size={18} /> linkedin
+        </a>
+        <a
+          href="https://drive.google.com/drive/folders/1t0P5m40LscY2cz2eau6XF_Q4wKU8dT70?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 text-gray-300 hover:text-green-400 transition-transform duration-200 transform hover:scale-110"
+        >
+          <FileText size={18} /> cv
         </a>
       </div>
       <div className="text-gray-500 text-xs mt-2">

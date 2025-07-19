@@ -77,7 +77,6 @@ const AboutPage = () => {
             <div className="text-green-400 space-y-2 font-light">
               <p><span className="text-green-400">Name:</span> Clark Joross Lim</p>
               <p><span className="text-green-400">Role:</span> Computer Engineer & Web Developer </p>
-              <p><span className="text-green-400">Experience:</span> Fresh Graduate</p>
               <p><span className="text-green-400">Location:</span> Philippines</p>
             </div>
           </div>

@@ -36,6 +36,7 @@ export default function PortfolioDevelopmentCaseStudy() {
             <Github size={24} strokeWidth={2} />
           </a>
         </div>
+        
         <div className="mb-10 text-green-400 font-mono text-sm">
           <span className="font-semibold">Role:</span> Full Stack Developer
         </div>
@@ -81,6 +82,12 @@ export default function PortfolioDevelopmentCaseStudy() {
             <li>Create automated deployment pipeline with continuous integration</li>
           </ul>
         </section>
+        
+        <div className="mt-12 text-center">
+          <p className="text-gray-400 text-xs italic">
+            For more information, check out the links above
+          </p>
+        </div>
       </main>
       <SlideUpFooter />
     </>

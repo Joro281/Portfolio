@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import LayoutContent from "./components/LayoutContent";
+import ConditionalLayout from "./components/ConditionalLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "Joro",
   description: "Joro",
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: '/spider.ico',
+    shortcut: '/spider.ico',
+    apple: '/spider.ico',
   },
 };
 
@@ -34,9 +34,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        <LayoutContent>
+        <ConditionalLayout>
           {children}
-        </LayoutContent>
+        </ConditionalLayout>
       </body>
     </html>
   );

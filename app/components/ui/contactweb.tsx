@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { CheckCircle, XCircle } from "lucide-react";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -127,9 +128,19 @@ const Contact = () => {
               status === "success" ? "bg-green-700" : "bg-red-700"
             } ${animationClass}`}
           >
-            {status === "success"
-              ? "✅ Message sent successfully!"
-              : "❌ Failed to send message."}
+            <div className="flex items-center gap-2">
+              {status === "success" ? (
+                <>
+                  <CheckCircle size={20} />
+                  <span>Message sent successfully!</span>
+                </>
+              ) : (
+                <>
+                  <XCircle size={20} />
+                  <span>Failed to send message.</span>
+                </>
+              )}
+            </div>
           </div>
         )}
       </div>

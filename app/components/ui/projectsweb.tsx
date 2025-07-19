@@ -81,6 +81,12 @@ const Projects = () => {
         </p>
       </div>
 
+      <div className="mb-6 text-center">
+        <p className="text-green-300 text-sm italic animate-pulse">
+          Click any project to see detailed case study
+        </p>
+      </div>
+
       <div className="grid gap-8 lg:grid-cols-2">
         {projects.map((project, index) => (
           <div
@@ -89,7 +95,7 @@ const Projects = () => {
             data-project-card
             onClick={() => router.push(`/case-studies/${project.caseStudy}`)}
           >
-            {/* Hover overlay with gradient */}
+
             <div className="absolute inset-0 bg-gradient-to-br from-green-400/10 via-transparent to-green-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <p>
               <span className="text-green-500">👤</span> user@portfolio:~${" "}

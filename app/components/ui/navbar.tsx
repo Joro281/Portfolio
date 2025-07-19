@@ -20,7 +20,19 @@ const Navbar = () => {
 
   return (
     <nav className="bg-neutral-900 flex items-center justify-between py-4 px-4 sm:px-8 font-mono text-sm relative">
-      <span className="text-green-400 font-bold text-base sm:text-lg">Jorodotexe</span>
+      <Link href="/home" className="text-green-400 font-bold text-xl sm:text-2xl lg:text-3xl flex items-center hover:scale-105 transition-transform duration-200">
+        <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent animate-pulse">
+          J
+        </span>
+        <img 
+          src="/spider.ico" 
+          alt="Spider" 
+          className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 inline-block mx-1 animate-bounce hover:scale-110 transition-transform duration-300 drop-shadow-lg"
+        />
+        <span className="bg-gradient-to-r from-emerald-500 to-green-400 bg-clip-text text-transparent animate-pulse">
+          RO
+        </span>
+      </Link>
 
       <button
         onClick={toggleMenu}
