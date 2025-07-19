@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import ScrollLoadingBar from "../../components/ui/ScrollLoadingBar";
 import SlideUpFooter from "../../components/ui/SlideUpFooter";
@@ -41,12 +42,14 @@ export default function Click2PermitCaseStudy() {
           <span className="font-semibold">Role:</span> Full Stack Developer
         </div>
 
-        <section className="mb-8">
+
+
+        <section id="introduction" className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">1. Introduction</h2>
-          <h3 className="text-green-400 font-semibold mb-2">Background</h3>
+          <h3 id="background" className="text-green-400 font-semibold mb-2">Background</h3>
           <p className="text-gray-300 mb-4">The Human Resource Management Office (HRMO) of Cagayan de Oro City struggled with inefficiencies in processing document requests (e.g., Certificates of Employment, Leave Credits) due to manual, paper-based workflows. To modernize operations, Click2Permit was developed—a web-based system to automate request submissions, approvals, and tracking.</p>
           
-          <h3 className="text-green-400 font-semibold mb-2">Objective</h3>
+          <h3 id="objective" className="text-green-400 font-semibold mb-2">Objective</h3>
           <p className="text-gray-300 mb-2">The system aims to:</p>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li>Automate document requests (e.g., COE, Service Records, Leave Credits).</li>
@@ -55,9 +58,9 @@ export default function Click2PermitCaseStudy() {
           </ul>
         </section>
 
-        <section className="mb-8">
+        <section id="system-design" className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">2. System Design & Development</h2>
-          <h3 className="text-green-400 font-semibold mb-2">Step 1: System Architecture</h3>
+          <h3 id="architecture" className="text-green-400 font-semibold mb-2">Step 1: System Architecture</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li><strong>Frontend:</strong> Responsive web interface (compatible with desktops).</li>
             <li><strong>Backend:</strong> MySQL database for user profiles, requests, and audit logs.</li>
@@ -72,7 +75,7 @@ export default function Click2PermitCaseStudy() {
             <Image src="/images/click2permit/click2permit_adminpage.jpg" alt="Admin Page" width={400} height={300} className="rounded shadow bg-black w-full h-auto max-w-[400px]" />
           </div>
 
-          <h3 className="text-green-400 font-semibold mb-2">Step 2: Key Features</h3>
+          <h3 id="features" className="text-green-400 font-semibold mb-2">Step 2: Key Features</h3>
           <table className="min-w-full text-left text-gray-300 border border-green-600 mb-4">
             <thead className="bg-green-900">
               <tr>
@@ -88,7 +91,7 @@ export default function Click2PermitCaseStudy() {
             </tbody>
           </table>
 
-          <h3 className="text-green-400 font-semibold mb-2">Step 3: Technology Stack</h3>
+          <h3 id="tech-stack" className="text-green-400 font-semibold mb-2">Step 3: Technology Stack</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li><strong>Frontend:</strong> HTML, CSS, JavaScript (Figma for UI design).</li>
             <li><strong>Backend:</strong> PHP with MySQL.</li>
@@ -96,9 +99,9 @@ export default function Click2PermitCaseStudy() {
           </ul>
         </section>
 
-        <section className="mb-8">
+        <section id="implementation" className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">3. Implementation & Testing</h2>
-          <h3 className="text-green-400 font-semibold mb-2">Step 4: User Flow</h3>
+          <h3 id="user-flow" className="text-green-400 font-semibold mb-2">Step 4: User Flow</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li><strong>Login:</strong> Employees/Admins authenticate via credentials.</li>
             <li><strong>Request Submission:</strong> Employees fill forms (e.g., personal details, document type).</li>
@@ -110,9 +113,9 @@ export default function Click2PermitCaseStudy() {
             <Image src="/images/click2permit/click2permit_dfdadmin.jpg" alt="Admin Data Flow" width={400} height={300} className="rounded shadow bg-black w-full h-auto max-w-[400px]" />
           </div>
 
-          <h3 className="text-green-400 font-semibold mb-2">Step 5: Testing</h3>
+          <h3 id="testing" className="text-green-400 font-semibold mb-2">Step 5: Testing</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
-            <li><strong>Usability Testing:</strong> Scored 89.06/100 (SUS), rated "Best Imaginable" by users.</li>
+            <li><strong>Usability Testing:</strong> Scored 89.06/100 (SUS), rated &quot;Best Imaginable&quot; by users.</li>
             <li><strong>Functional Testing:</strong> 100% success rate for core features (e.g., request submission, approval).</li>
             <li><strong>Bug Fixes:</strong> Resolved document template rendering issues.</li>
           </ul>
@@ -122,21 +125,21 @@ export default function Click2PermitCaseStudy() {
           </div>
         </section>
 
-        <section className="mb-8">
+        <section id="results" className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">4. Results & Impact</h2>
-          <h3 className="text-green-400 font-semibold mb-2">Key Outcomes</h3>
+          <h3 id="outcomes" className="text-green-400 font-semibold mb-2">Key Outcomes</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li><strong>Transparency:</strong> Eliminated manual follow-ups with real-time tracking.</li>
             <li><strong>User Satisfaction:</strong> 90% of employees praised the system&apos;s ease of use.</li>
           </ul>
 
-          <h3 className="text-green-400 font-semibold mb-2">User Feedback</h3>
+          <h3 id="feedback" className="text-green-400 font-semibold mb-2">User Feedback</h3>
           <blockquote className="border-l-4 border-green-400 pl-4 italic text-gray-300 mb-4">
-            "Click2Permit saved me hours—no more waiting in line at HRMO!"<br />
+            &quot;Click2Permit saved me hours—no more waiting in line at HRMO!&quot;<br />
             <span className="text-green-400">— City Hall Employee</span>
           </blockquote>
 
-          <h3 className="text-green-400 font-semibold mb-2">Challenges & Solutions</h3>
+          <h3 id="challenges" className="text-green-400 font-semibold mb-2">Challenges & Solutions</h3>
           <table className="min-w-full text-left text-gray-300 border border-green-600 mb-4">
             <thead className="bg-green-900">
               <tr>
@@ -151,13 +154,13 @@ export default function Click2PermitCaseStudy() {
           </table>
         </section>
 
-        <section className="mb-8">
+        <section id="conclusion" className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">5. Conclusion & Recommendations</h2>
           
-          <h3 className="text-green-400 font-semibold mb-2">Conclusion</h3>
+          <h3 id="summary" className="text-green-400 font-semibold mb-2">Conclusion</h3>
           <p className="text-gray-300 mb-4">Click2Permit successfully digitized HRMO&apos;s document workflows, boosting efficiency, accuracy, and user satisfaction.</p>
 
-          <h3 className="text-green-400 font-semibold mb-2">Recommendations</h3>
+          <h3 id="recommendations" className="text-green-400 font-semibold mb-2">Recommendations</h3>
           <ul className="list-disc ml-6 text-gray-300 mb-4">
             <li><strong>Mobile App:</strong> Extend access for field employees.</li>
             <li><strong>Integration:</strong> Sync with city hall&apos;s digital signature system.</li>
