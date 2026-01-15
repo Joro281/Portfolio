@@ -1,10 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-<<<<<<< HEAD
 import { CheckCircle, XCircle } from "lucide-react";
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -131,7 +128,6 @@ const Contact = () => {
               status === "success" ? "bg-green-700" : "bg-red-700"
             } ${animationClass}`}
           >
-<<<<<<< HEAD
             <div className="flex items-center gap-2">
               {status === "success" ? (
                 <>
@@ -145,11 +141,6 @@ const Contact = () => {
                 </>
               )}
             </div>
-=======
-            {status === "success"
-              ? "✅ Message sent successfully!"
-              : "❌ Failed to send message."}
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
           </div>
         )}
       </div>

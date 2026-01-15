@@ -6,10 +6,6 @@ interface LoadingScreenProps {
   onComplete: () => void;
 }
 
-<<<<<<< HEAD
-=======
-// Move bootSequence outside the component
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
 const bootSequence = [
   "Initializing portfolio system...",
   "Loading Clark Lim's profile...",

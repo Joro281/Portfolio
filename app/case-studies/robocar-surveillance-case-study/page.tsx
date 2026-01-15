@@ -36,10 +36,7 @@ export default function RoboCarSurveillanceCaseStudy() {
             <Github size={24} strokeWidth={2} />
           </a>
         </div>
-<<<<<<< HEAD
         
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
         <div className="mb-10 text-green-400 font-mono text-sm">
           <span className="font-semibold">Role:</span> Backend Developer
         </div>
@@ -136,15 +133,9 @@ export default function RoboCarSurveillanceCaseStudy() {
               </tr>
             </thead>
             <tbody>
-<<<<<<< HEAD
               <tr><td className="py-2 px-4 border-b border-green-600">Smoke Detection</td><td className="py-2 px-4 border-b border-green-600">MQ2 Activated</td><td className="py-2 px-4 border-b border-green-600">&quot;Smoke Detected&quot;</td></tr>
               <tr><td className="py-2 px-4 border-b border-green-600">Alcohol Vapor</td><td className="py-2 px-4 border-b border-green-600">MQ3 Activated</td><td className="py-2 px-4 border-b border-green-600">&quot;Alcohol Detected&quot;</td></tr>
               <tr><td className="py-2 px-4 border-b border-green-600">LPG Leak</td><td className="py-2 px-4 border-b border-green-600">MQ6 Activated</td><td className="py-2 px-4 border-b border-green-600">&quot;Flammable Area&quot;</td></tr>
-=======
-              <tr><td className="py-2 px-4 border-b border-green-600">Smoke Detection</td><td className="py-2 px-4 border-b border-green-600">MQ2 Activated</td><td className="py-2 px-4 border-b border-green-600">"Smoke Detected"</td></tr>
-              <tr><td className="py-2 px-4 border-b border-green-600">Alcohol Vapor</td><td className="py-2 px-4 border-b border-green-600">MQ3 Activated</td><td className="py-2 px-4 border-b border-green-600">"Alcohol Detected"</td></tr>
-              <tr><td className="py-2 px-4 border-b border-green-600">LPG Leak</td><td className="py-2 px-4 border-b border-green-600">MQ6 Activated</td><td className="py-2 px-4 border-b border-green-600">"Flammable Area"</td></tr>
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
             </tbody>
           </table>
         </section>
@@ -185,15 +176,12 @@ export default function RoboCarSurveillanceCaseStudy() {
             <li>Scale Up: Deploy multiple units for large-area monitoring.</li>
           </ul>
         </section>
-<<<<<<< HEAD
         
         <div className="mt-12 text-center">
           <p className="text-gray-400 text-xs italic">
             For more information, check out the links above
           </p>
         </div>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
       </main>
       <SlideUpFooter />
     </>

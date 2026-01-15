@@ -37,10 +37,7 @@ export default function FuelRequestSystemCaseStudy() {
             <Github size={24} strokeWidth={2} />
           </a>
         </div>
-<<<<<<< HEAD
         
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
         <div className="mb-10 text-green-400 font-mono text-sm">
           <span className="font-semibold">Role:</span> Backend Developer
         </div>
@@ -140,11 +137,7 @@ export default function FuelRequestSystemCaseStudy() {
           </ul>
           <h4 className="text-lg font-semibold text-green-400 mb-1 mt-6">User Feedback</h4>
           <blockquote className="border-l-4 border-green-300 pl-4 italic text-gray-700 mb-2">
-<<<<<<< HEAD
             &quot;The system made it easy to submit requests and track approvals instantly.&quot;
-=======
-            "The system made it easy to submit requests and track approvals instantly."
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
             <br />
             <span className="text-xs text-gray-500">— Motorpool Division Employee</span>
           </blockquote>
@@ -175,11 +168,7 @@ export default function FuelRequestSystemCaseStudy() {
           <h3 className="text-2xl font-semibold text-green-300 mb-2">Conclusion & Recommendations</h3>
           <h4 className="text-lg font-semibold text-green-400 mb-1">Conclusion</h4>
           <p className="mb-2">
-<<<<<<< HEAD
             The Online Request System successfully digitized the Provincial Engineering Office&apos;s workflows, improving efficiency, accountability, and resource management.
-=======
-            The Online Request System successfully digitized the Provincial Engineering Office's workflows, improving efficiency, accountability, and resource management.
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
           </p>
           <h4 className="text-lg font-semibold text-green-400 mb-1">Recommendations</h4>
           <ul className="list-disc list-inside pl-4">
@@ -188,15 +177,12 @@ export default function FuelRequestSystemCaseStudy() {
             <li>Training: Regular workshops for new users.</li>
           </ul>
         </section>
-<<<<<<< HEAD
         
         <div className="mt-12 text-center">
           <p className="text-gray-400 text-xs italic">
             For more information, check out the links above
           </p>
         </div>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
       </main>
       <SlideUpFooter />
     </>

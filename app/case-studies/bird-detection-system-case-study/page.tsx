@@ -36,10 +36,7 @@ export default function BirdDetectionSystemCaseStudy() {
             <Github size={24} strokeWidth={2} />
           </a>
         </div>
-<<<<<<< HEAD
         
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
         <div className="mb-10 text-green-400 font-mono text-sm">
           <span className="font-semibold">Role:</span> Full Stack Developer
         </div>
@@ -182,15 +179,12 @@ export default function BirdDetectionSystemCaseStudy() {
             <li>Long-Term Studies: Assess impact over multiple seasons.</li>
           </ul>
         </section>
-<<<<<<< HEAD
         
         <div className="mt-12 text-center">
           <p className="text-gray-400 text-xs italic">
             For more information, check out the links above
           </p>
         </div>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
       </main>
       <SlideUpFooter />
     </>

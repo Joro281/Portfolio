@@ -36,10 +36,7 @@ export default function AquacultureMonitoringCaseStudy() {
             <Github size={24} strokeWidth={2} />
           </a>
         </div>
-<<<<<<< HEAD
         
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
         <div className="mb-10 text-green-400 font-mono text-sm">
           <span className="font-semibold">Role:</span> Full Stack Developer
         </div>
@@ -83,11 +80,7 @@ export default function AquacultureMonitoringCaseStudy() {
             <tbody>
               <tr><td className="py-2 px-4 border-b border-green-600">ESP32 Microcontroller</td><td className="py-2 px-4 border-b border-green-600">Processes sensor data and controls actuators.</td></tr>
               <tr><td className="py-2 px-4 border-b border-green-600">pH Sensor (PH-4502C)</td><td className="py-2 px-4 border-b border-green-600">Measures water acidity/alkalinity (range: 2.0–9.18 pH).</td></tr>
-<<<<<<< HEAD
               <tr><td className="py-2 px-4 border-b border-green-600">Float Switch Sensors</td><td className="py-2 px-4 border-b border-green-600">Detects water levels (&quot;full&quot; or &quot;not full&quot;).</td></tr>
-=======
-              <tr><td className="py-2 px-4 border-b border-green-600">Float Switch Sensors</td><td className="py-2 px-4 border-b border-green-600">Detects water levels ("full" or "not full").</td></tr>
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
               <tr><td className="py-2 px-4 border-b border-green-600">Chlorella vulgaris Chambers</td><td className="py-2 px-4 border-b border-green-600">Three chambers with algae densities (10–20%, 25–35%, 40–50%).</td></tr>
               <tr><td className="py-2 px-4 border-b border-green-600">Full-Spectrum LED Lights</td><td className="py-2 px-4 border-b border-green-600">Enhances algae photosynthesis.</td></tr>
               <tr><td className="py-2 px-4 border-b border-green-600">CO₂ Reactor</td><td className="py-2 px-4 border-b border-green-600">Stabilizes pH by regulating carbon dioxide.</td></tr>
@@ -166,7 +159,6 @@ export default function AquacultureMonitoringCaseStudy() {
             </tbody>
           </table>
         </section>
-<<<<<<< HEAD
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-green-300 mb-2">5. Conclusion & Recommendations</h2>
@@ -193,8 +185,6 @@ export default function AquacultureMonitoringCaseStudy() {
             For more information, check out the links above
           </p>
         </div>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
       </main>
       <SlideUpFooter />
     </>

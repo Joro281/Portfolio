@@ -1,12 +1,6 @@
 "use client";
-<<<<<<< HEAD
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Mail, FileText } from "lucide-react";
-=======
-import { useState, useEffect } from "react";
-import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
 
 export default function SlideUpFooter() {
   return (
@@ -74,15 +68,12 @@ export default function SlideUpFooter() {
                   LinkedIn
                 </a>
               </li>
-<<<<<<< HEAD
                               <li>
                   <a href="https://drive.google.com/drive/folders/1t0P5m40LscY2cz2eau6XF_Q4wKU8dT70?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-green-400 transition-colors flex items-center py-1">
                     <FileText size={16} className="mr-3" />
                     CV
                   </a>
                 </li>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
             </ul>
           </div>
         </div>

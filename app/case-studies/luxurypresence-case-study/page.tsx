@@ -4,7 +4,7 @@ import ScrollLoadingBar from "../../components/ui/ScrollLoadingBar";
 import SlideUpFooter from "../../components/ui/SlideUpFooter";
 import Link from "next/link";
 import Image from "next/image";
-import { Github, ExternalLink, Figma } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 export default function LuxuryPresenceCaseStudy() {
     return (
