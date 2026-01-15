@@ -4,7 +4,11 @@ import React, { useState, useEffect } from 'react';
 const steps = [
   { text: 'Welcome to My Portfolio', delay: 600 },
   { text: '', delay: 200 },
+<<<<<<< HEAD
   { text: '\ud83d\udc64 user@portfolio:~$ Hello, I am Clark Joross Lim. A Computer Engineer and Web Developer.', delay: 400 },
+=======
+  { text: '\ud83d\udc64 user@portfolio:~$ Hello, I am Clark Joross Lim. A Web Developer.', delay: 400 },
+>>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
   { text: '', delay: 200 },
   { text: '\ud83d\udc64 user@portfolio:~$ whoami', delay: 300 },
   { text: '', delay: 200 },
@@ -21,6 +25,7 @@ const steps = [
 const HomeWeb = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [currentStep, setCurrentStep] = useState(0);
+<<<<<<< HEAD
   const [isSkipped, setIsSkipped] = useState(false);
 
   useEffect(() => {
@@ -31,6 +36,11 @@ const HomeWeb = () => {
       return;
     }
 
+=======
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+>>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
     if (currentStep < steps.length) {
       const currentStepData = steps[currentStep];
       let index = 0;
@@ -54,6 +64,7 @@ const HomeWeb = () => {
 
       return () => clearInterval(timer);
     }
+<<<<<<< HEAD
   }, [currentStep, isSkipped]);
 
   const lines = displayedText.split('\n');
@@ -75,6 +86,23 @@ const HomeWeb = () => {
             </button>
           </div>
         )}
+=======
+  }, [currentStep, steps.length]);
+
+  useEffect(() => {
+    const cursorTimer = setInterval(() => {
+      setShowCursor(prev => !prev);
+    }, 530);
+
+    return () => clearInterval(cursorTimer);
+  }, []);
+
+  const lines = displayedText.split('\n');
+
+  return (
+    <div className="min-h-screen bg-black text-green-400 p-4 sm:p-6 md:p-8 lg:p-12">
+      <div className="max-w-5xl mx-auto">
+>>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
         <div className="space-y-6 sm:space-y-8">
           {lines.map((line, index) => (
             <div key={index} className="animate-fadeIn">
@@ -90,7 +118,11 @@ const HomeWeb = () => {
                   <div className="flex-1 min-w-0">
                     <span className="text-green-400 text-base sm:text-lg font-medium">user@portfolio:~$</span>
                     <span className="text-gray-200 ml-3 text-base sm:text-lg font-light">
+<<<<<<< HEAD
                       Hello, I am Clark Joross Lim. A Computer Engineer and Web Developer.
+=======
+                      Hello, I am Clark Joross Lim. A Web Developer.
+>>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
                     </span>
                   </div>
                 </div>
