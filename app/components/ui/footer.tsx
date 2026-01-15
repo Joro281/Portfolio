@@ -1,9 +1,5 @@
 "use client";
-<<<<<<< HEAD
 import { Facebook, Instagram, Linkedin, Mail, FileText } from "lucide-react";
-=======
-import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
 
 export default function Footer() {
   return (
@@ -47,7 +43,6 @@ export default function Footer() {
         >
           <Linkedin size={18} /> linkedin
         </a>
-<<<<<<< HEAD
         <a
           href="https://drive.google.com/drive/folders/1t0P5m40LscY2cz2eau6XF_Q4wKU8dT70?usp=drive_link"
           target="_blank"
@@ -56,8 +51,6 @@ export default function Footer() {
         >
           <FileText size={18} /> cv
         </a>
-=======
->>>>>>> 74faa704344ad38fe3fb4bf912810f6bae4c7ad1
       </div>
       <div className="text-gray-500 text-xs mt-2">
         © 2025 Clark Lim. All rights reserved.
