@@ -47,7 +47,7 @@ export default function LuxuryPresenceCaseStudy() {
                 <section className="mb-10">
                     <h3 className="text-2xl font-semibold text-green-300 mb-2">Assignment Context</h3>
                     <p className="mb-2 text-gray-300">
-                        This project was a Web Builder assignment designed to test aptitude, comprehension, resourcefulness, and creativity. The challenge was to revamp the "Home" page of a real estate website within 3 days, ensuring the result was simple, elegant, and professional.
+                        This project was a Web Builder assignment designed to test aptitude, comprehension, resourcefulness, and creativity. The challenge was to revamp the &quot;Home&quot; page of a real estate website within 3 days, ensuring the result was simple, elegant, and professional.
                     </p>
                     <p className="mb-2 text-gray-300">
                         The goal was to improve the design of the current website rather than just copying it, while using all existing content and images.
@@ -57,7 +57,7 @@ export default function LuxuryPresenceCaseStudy() {
                 <section className="mb-10">
                     <h3 className="text-2xl font-semibold text-green-300 mb-2">Design Philosophy</h3>
                     <p className="mb-2 text-gray-300">
-                        Given the nature of the real estate market, the design approach focused on <span className="text-green-400">"Premium Elegance"</span>. I aimed to create a user interface that feels luxurious and trustworthy.
+                        Given the nature of the real estate market, the design approach focused on <span className="text-green-400">&quot;Premium Elegance&quot;</span>. I aimed to create a user interface that feels luxurious and trustworthy.
                     </p>
                     <ul className="list-disc list-inside pl-4 mb-2 text-gray-300">
                         <li><strong>Visual Polish:</strong> Used clean typography, generous whitespace, and high-quality imagery to convey sophistication.</li>
